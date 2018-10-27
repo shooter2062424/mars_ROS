@@ -1,0 +1,4 @@
+<launch>
+    <node name="simple_pub" pkg="examples" type="simple_pub.py"/>
+    <node name="simple_sub" pkg="examples" type="simple_sub.py"/>
+</launch>
