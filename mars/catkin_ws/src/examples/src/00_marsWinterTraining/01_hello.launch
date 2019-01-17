@@ -1,0 +1,6 @@
+<launch>
+    <node name="simple_pub" pkg="examples" type="simple_pub.py"/>
+    <node name="serial_node" pkg="rosserial_python" type="serial_node.py">
+		<param name="port" value="/dev/ttyUSB0">
+	</node>
+</launch>
